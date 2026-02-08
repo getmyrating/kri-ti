@@ -1,3 +1,4 @@
+import RFB from "@/components/RFB";
 import { profile } from "@/config/profile";
 
 export default function Home() {
@@ -83,6 +84,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <RFB />
     </div>
   );
 }
