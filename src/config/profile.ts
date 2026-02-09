@@ -61,17 +61,17 @@ export const profile: ProfileConfig = {
     photos: [
       {
         id: "1",
-        url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop",
-        alt: "Mountain landscape",
-        caption: "Beautiful mountain view",
-        date: "2024-01-15",
+        url: "../photos/1.jpeg",
+        alt: "Just me",
+        caption: "Just me",
+        date: "2025-07-26",
       },
       {
         id: "2",
-        url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop",
-        alt: "Forest path",
-        caption: "Peaceful forest walk",
-        date: "2024-02-20",
+        url: "../photos/2.jpeg",
+        alt: "Merry Christmas 🎄",
+        caption: "Merry Christmas 🎄",
+        date: "2025-07-28",
       },
       {
         id: "3",
