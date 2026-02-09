@@ -60,7 +60,7 @@ export default function Home() {
                   <a
                     key={l.href}
                     href={l.href}
-                    target="_blank"
+                    // target="_blank"
                     rel="noopener noreferrer"
                     className="group rounded-2xl border border-rose-200 bg-white/70 dark:bg-white/5 p-5 shadow hover:shadow-md transition"
                   >
