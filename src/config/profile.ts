@@ -23,7 +23,7 @@ export const profile: ProfileConfig = {
   name: "Kriti",
   title: "Kunafa Lover",
   photoUrl: "../dp.jpeg",
-  bio: "I'm my favorite",
+  bio: "Bak-bak machine",
   location: "Patna",
   email: "kritilata36676@gmail.com",
   socials: [
