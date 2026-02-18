@@ -9,7 +9,7 @@ const ReactFloatingBalloons = dynamic(
   { ssr: false },
 );
 
-export default function RFB() {
+export default function RFB({ count }: { count: number }) {
   const [supportsTouch, setSupportsTouch] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function RFB() {
   // if (!supportsTouch) return null;
   return (
     <ReactFloatingBalloons
-      count={10}
+      count={count}
       msgText="Kriti"
       colors={["red", "purple", "yellow", "blue", "orange"]}
     />

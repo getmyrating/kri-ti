@@ -91,7 +91,7 @@ export default function Home() {
           className="w-40 md:w-96 max-w-80 fixed bottom-1 right-1 animate-slideUp delay-700"
         />
       </div>
-      <RFB />
+      <RFB count={3} />
     </div>
   );
 }

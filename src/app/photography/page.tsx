@@ -100,7 +100,7 @@ export default function PhotographyPage() {
           </div>
         )}
       </main>
-      <RFB />
+      <RFB count={10} />
     </div>
   );
 }
