@@ -3,7 +3,7 @@ import { profile } from "@/config/profile";
 
 export default function Home() {
   return (
-    <div className="min-h-screen animated-gradient px-6 py-16">
+    <div className="min-h-screen animated-gradient px-6 py-16 relative">
       <main className="mx-auto max-w-3xl">
         <div className="relative overflow-hidden rounded-3xl border border-rose-200/60 bg-white/70 dark:bg-black/40 backdrop-blur-md shadow-2xl">
           <div className="p-8 sm:p-12">
@@ -84,6 +84,13 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <div className="absolute">
+        <img
+          src="../photos/pp.gif"
+          alt="pp"
+          className="w-40 md:w-96 max-w-80 fixed bottom-1 right-1 animate-slideUp delay-700"
+        />
+      </div>
       <RFB />
     </div>
   );
