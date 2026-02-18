@@ -23,7 +23,7 @@ export default function RFB() {
   // if (!supportsTouch) return null;
   return (
     <ReactFloatingBalloons
-      count={5}
+      count={30}
       msgText="Kriti"
       colors={["red", "purple", "yellow", "blue", "orange"]}
     />
