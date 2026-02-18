@@ -88,7 +88,7 @@ export default function Home() {
         <img
           src="../photos/pp.gif"
           alt="pp"
-          className="w-40 md:w-96 max-w-80 fixed bottom-1 right-1 animate-slideUp delay-700"
+          className="w-40 md:w-96 max-w-80 fixed bottom-1 right-1 animate-slideUp delay-700 image-filter"
         />
       </div>
       <RFB count={3} />

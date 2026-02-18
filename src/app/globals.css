@@ -48,6 +48,10 @@ body {
   animation-delay: 1.3s; /* The animation will wait for 1 second before starting */
 }
 
+.image-filter {
+  filter: drop-shadow(5px 5px 8px rgba(238, 24, 234, 0.676));
+}
+
 .animate-slideUp {
   animation:
     slideUp 1.5s ease-out forwards,
