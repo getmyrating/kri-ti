@@ -75,10 +75,10 @@ export const profile: ProfileConfig = {
       },
       {
         id: "3",
-        url: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=400&fit=crop",
-        alt: "City skyline",
-        caption: "Urban architecture",
-        date: "2024-03-10",
+        url: "../photos/3.jpeg",
+        alt: "#InMyPrettyEra",
+        caption: "#InMyPrettyEra",
+        date: "2025-03-12",
       },
       {
         id: "4",
