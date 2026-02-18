@@ -47,8 +47,8 @@ export const profile: ProfileConfig = {
     },
   ],
   links: [
-    // { label: "Portfolio", href: "/portfolio" },
     { label: "Photography", href: "/photography" },
+    { label: "Portfolio", href: "/portfolio" },
   ],
   colors: {
     primary: "#ff69b4",
@@ -79,27 +79,6 @@ export const profile: ProfileConfig = {
         alt: "#InMyPrettyEra",
         caption: "#InMyPrettyEra",
         date: "2025-03-12",
-      },
-      {
-        id: "4",
-        url: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=400&fit=crop",
-        alt: "Sunset over water",
-        caption: "Golden hour at the beach",
-        date: "2024-04-05",
-      },
-      {
-        id: "5",
-        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-        alt: "Portrait shot",
-        caption: "Portrait photography",
-        date: "2024-05-12",
-      },
-      {
-        id: "6",
-        url: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=400&fit=crop",
-        alt: "Flower macro",
-        caption: "Macro photography",
-        date: "2024-06-18",
       },
     ],
   },

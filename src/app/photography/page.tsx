@@ -1,3 +1,4 @@
+import RFB from "@/components/RFB";
 import { profile } from "@/config/profile";
 import Link from "next/link";
 
@@ -99,6 +100,7 @@ export default function PhotographyPage() {
           </div>
         )}
       </main>
+      <RFB />
     </div>
   );
 }
