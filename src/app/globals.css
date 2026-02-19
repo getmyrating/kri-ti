@@ -52,10 +52,22 @@ body {
   filter: drop-shadow(5px 5px 8px rgba(238, 24, 234, 0.676));
 }
 
-.animate-slideUp {
+.animate-pinkpanther {
   animation:
     slideUp 1.5s ease-out forwards,
-    bouncy 1s ease-out 1.3s infinite;
+    bouncy 1s ease-out 1.3s infinite,
+    slideRight 5.5s ease-out 10s forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(110%);
+    opacity: 0;
+  }
 }
 
 @keyframes slideUp {
