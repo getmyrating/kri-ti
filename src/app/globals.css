@@ -56,7 +56,35 @@ body {
   animation:
     slideUp 1.5s ease-out forwards,
     bouncy 1s ease-out 1.3s infinite,
-    slideRight 5.5s ease-out 10s forwards;
+    slideRight 5.5s ease-out 10s forwards,
+    tiltLeft 2s ease-out 18.5s forwards,
+    tiltRight 2s ease-out 20.5s forwards;
+}
+
+@keyframes tiltLeft {
+  0% {
+    transform: translateX(85%) rotate(0deg);
+    transform-origin: top center;
+    opacity: 0.33;
+  }
+  100% {
+    transform: translateX(30%) rotate(-35deg);
+    transform-origin: top center;
+    opacity: 0.7;
+  }
+}
+
+@keyframes tiltRight {
+  0% {
+    transform: translateX(30%) rotate(-35deg);
+    transform-origin: top center;
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(110%) rotate(0deg);
+    transform-origin: top center;
+    opacity: 0;
+  }
 }
 
 @keyframes slideRight {
@@ -65,8 +93,8 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateX(110%);
-    opacity: 0;
+    transform: translateX(85%);
+    opacity: 0.33;
   }
 }
 
