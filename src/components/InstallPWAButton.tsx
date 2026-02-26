@@ -43,11 +43,7 @@ export default function InstallPWAButton() {
   };
 
   if (installed) {
-    return (
-      <div className="inline-flex items-center rounded-full border border-rose-300 bg-rose-50 text-rose-700 px-4 py-2 text-sm font-semibold shadow-sm">
-        Installed
-      </div>
-    );
+    return null;
   }
 
   return (
