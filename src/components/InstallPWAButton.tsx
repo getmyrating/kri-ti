@@ -50,14 +50,13 @@ export default function InstallPWAButton() {
     );
   }
 
-  if (!canInstall) return null;
-
   return (
     <button
       onClick={onClick}
-      className="inline-flex items-center rounded-xl   border border-rose-300 bg-rose-50 text-rose-700  px-4 py-2 text-sm font-semibold shadow hover:opacity-90 transition"
+      disabled={!canInstall}
+      className="inline-flex items-center rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white px-4 py-2 text-sm font-semibold shadow hover:opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed"
     >
-      Install
+      +
     </button>
   );
 }

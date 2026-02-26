@@ -7,6 +7,9 @@ export default function Home() {
     <div className="min-h-screen animated-gradient px-6 py-16 relative">
       <main className="mx-auto max-w-3xl">
         <div className="relative overflow-hidden rounded-3xl border border-rose-200/60 bg-white/70 dark:bg-black/40 backdrop-blur-md shadow-2xl">
+          <div className="absolute top-4 right-4 z-20">
+            <InstallPWAButton />
+          </div>
           <div className="p-8 sm:p-12">
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
               <div className="relative">
@@ -44,15 +47,14 @@ export default function Home() {
                       {s.label}
                     </a>
                   ))}
-                  {/* {profile.email ? (
+                  {profile.email ? (
                     <a
                       href={`mailto:${profile.email}`}
                       className="inline-flex items-center rounded-full border border-rose-300 bg-rose-50 text-rose-700 px-4 py-2 text-sm font-semibold shadow-sm hover:bg-rose-100 transition"
                     >
                       Say Hello
                     </a>
-                  ) : null} */}
-                  <InstallPWAButton />
+                  ) : null}
                 </div>
               </div>
             </div>
