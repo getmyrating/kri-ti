@@ -1,3 +1,4 @@
+import InstallPWAButton from "@/components/InstallPWAButton";
 import RFB from "@/components/RFB";
 import { profile } from "@/config/profile";
 
@@ -43,14 +44,15 @@ export default function Home() {
                       {s.label}
                     </a>
                   ))}
-                  {profile.email ? (
+                  {/* {profile.email ? (
                     <a
                       href={`mailto:${profile.email}`}
                       className="inline-flex items-center rounded-full border border-rose-300 bg-rose-50 text-rose-700 px-4 py-2 text-sm font-semibold shadow-sm hover:bg-rose-100 transition"
                     >
                       Say Hello
                     </a>
-                  ) : null}
+                  ) : null} */}
+                  <InstallPWAButton />
                 </div>
               </div>
             </div>

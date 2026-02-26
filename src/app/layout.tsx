@@ -2,6 +2,7 @@ import { profile } from "@/config/profile";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import RegisterSW from "@/components/RegisterSW";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,10 +28,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"></link>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ff69b4" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <RegisterSW />
         {children}
       </body>
     </html>
