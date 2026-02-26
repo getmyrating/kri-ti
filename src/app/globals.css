@@ -60,7 +60,47 @@ body {
     tiltLeft 2s ease-out 18.5s forwards,
     tiltRight 2s ease-out 20.5s forwards,
     tiltLeft 1.5s ease-out 25.5s forwards,
-    tiltRight 3s ease-out 27s forwards;
+    tiltRight 3s ease-out 27s forwards,
+    jumpAcross 5s ease-out 30s forwards;
+}
+
+@keyframes jumpAcross {
+  0% {
+    transform: translateX(110%) translateY(0);
+    transform-origin: top center;
+    opacity: 1;
+  }
+  10% {
+    transform: translateX(80%) translateY(-40px);
+  }
+  20% {
+    transform: translateX(50%) translateY(20px);
+  }
+  30% {
+    transform: translateX(20%) translateY(-60px);
+  }
+  40% {
+    transform: translateX(-10%) translateY(30px);
+  }
+  50% {
+    transform: translateX(-40%) translateY(-40px);
+  }
+  60% {
+    transform: translateX(-70%) translateY(0);
+  }
+  70% {
+    transform: translateX(-110%) translateY(-50px);
+  }
+  80% {
+    transform: translateX(-150%) translateY(30px);
+  }
+  90% {
+    transform: translateX(-190%) translateY(-40px);
+  }
+  100% {
+    transform: translateX(-230%) translateY(0);
+    opacity: 0.9;
+  }
 }
 
 @keyframes tiltLeft {
