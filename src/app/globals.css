@@ -58,11 +58,14 @@ body {
     bouncy 1s ease-out 1.3s infinite,
     slideRight 5.5s ease-out 10s forwards,
     tiltLeft 2s ease-out 18.5s forwards,
-    tiltRight 2s ease-out 20.5s forwards;
+    tiltRight 2s ease-out 20.5s forwards,
+    tiltLeft 1.5s ease-out 25.5s forwards,
+    tiltRight 3s ease-out 27s forwards;
 }
 
 @keyframes tiltLeft {
   0% {
+    transform: translateX(85%);
     transform: translateX(85%) rotate(0deg);
     transform-origin: top center;
     opacity: 0.33;
